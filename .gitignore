@@ -1,0 +1,4 @@
+*.json
+collect_data.py
+__pycache__
+requirements.txt

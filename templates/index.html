@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+
+{% block content %}
+    <h1 class="text-center">検索</h1>
+    <form action="/response" method="post" class="d-block w-75 mx-auto">
+        <div class="form-group">
+            <label for="format">取得方式</label>
+            <select name="format" id="format" class="form-control">
+                <option value="card" selected>カード</option>
+                <option value="excel">Excel</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="format">取得カード</label>
+            <select name="card_type" id="format" class="form-control">
+                <option value="normal" selected>ノーマル</option>
+                <option value="additional">アディショナル</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="get_value">取得数(なるべく入力してください)</label>
+            <select name="get_value" id="get_value" class="form-control">
+                <option value="1">1</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="all">全て</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="取得" class="d-block mx-auto btn btn-danger">
+    </form>
+{% endblock %}

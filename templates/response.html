@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+
+{% block content %}
+    <form action="/" method="get" class="d-block w-75 mx-auto">
+        <input type="submit" value="再検索" class="btn btn-primary ">
+    </form>
+    <div class="container">
+        {{ result | safe }}
+    </div>
+{% endblock %}
+
+    
