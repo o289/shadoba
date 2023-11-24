@@ -101,7 +101,7 @@ def response():
                 
                 created_html += '</div>'
                 
-                created_html += f'<div class="card-footer text-muted"><a href="{url}" class="d-block  w-50 mx-auto card-link  btn btn-danger">このキャラの情報はこちら</a></div>'
+                created_html += f'<div class="card-footer text-muted"><a href="{url}" class="d-block  w-50 mx-auto card-link  btn btn-danger">詳細はこちら</a></div>'
 
                 created_html += '</div></div>'
                 
@@ -258,7 +258,7 @@ def response():
                 
                 created_html += '</div>'
                 
-                created_html += f'<div class="card-footer text-muted"><a href="{url}" class="d-block  w-50 mx-auto card-link  btn btn-primary">このキャラの情報はこちら</a></div>'
+                created_html += f'<div class="card-footer text-muted"><a href="{url}" class="d-block  w-50 mx-auto card-link  btn btn-primary">詳細はこちら</a></div>'
 
                 created_html += '</div></div>'
                 
